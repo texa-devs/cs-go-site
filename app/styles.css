@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Oswald:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --primary: #1D1E2C;
+    --secondary: #A38560;
+    --tertiary: #726E60;
+    --quaternary: #FFFFFF;
+    --quinary: #5BC0BE;
+}
+
+body{
+    height: 800px;
+    width: 100%;
+    font-family: 'Merriweather Sans';
+    background-color: var(--primary);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.hero-text{
+    font-family: 'Oswald';
+    font-size: 3rem;
+    color: var(--quaternary);
+}
+
+.hero-text-subtitle{
+    font-size: 2rem;
+    color: var(--quinary);
+}
+
+.services-text{
+    width: 150px;
+    color: var(--quinary);
+}
+
+.services-text-title{
+    font-size: 1.25rem;
+}
+
+.services-text-content{
+    font-size: 18px;
+    color: var(--quaternary);
+}
